@@ -1,0 +1,12 @@
+spring:
+  application:
+    name: apigateway-service
+  cloud:
+    config:
+      enabled: true
+      uri: http://192.168.232.130:8888
+  security:
+    user:
+      name: root
+      password: root
+
